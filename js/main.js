@@ -4,7 +4,7 @@ $(document).ready(function(){
    /* Ouveture / Fermeture nav */
     $('.burger').click(function(evt) {
        evt.preventDefault();
-        $('header div').slideToggle('slow',function(){
+        $('.public ul').slideToggle('slow',function(){
         });
     });
 
